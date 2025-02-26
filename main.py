@@ -51,7 +51,6 @@ clf, vectorizer = load_or_train_model()
 st.title("📩 Email Spam Detection App")
 tabs = st.tabs(["📧 Spam Prediction", "📊 Data Visualization"])
 
-# Tab 1: Spam Prediction
 with tabs[0]:
     st.header("🔍 Enter Email Content for Prediction")
     user_input = st.text_area("Type your email content below:")
